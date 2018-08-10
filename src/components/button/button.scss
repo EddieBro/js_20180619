@@ -7,7 +7,8 @@
   min-width: 88px;
   border: none;
   color: rgba(0, 0, 0, 0.87);
-  background-color: white;
+  cursor: pointer;
+  background-color: rgba(128, 128, 128, 0.37);
   &:hover {
     background-color: gray;
   }

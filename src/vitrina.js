@@ -4,16 +4,17 @@ import {Field} from "./components/field/field";
 window.addEventListener('DOMContentLoaded', function () {
   let button = new Button({
     data: {
-      text: 'Hello world'
+      text: 'Просто кнопка'
     },
-    node: document.querySelector('.root')
+    node: document.querySelector('.root app-button')
   });
 
   let field = new Field({
       data: {
         value: '',
         placeholder: 'Это плейсхолдер'
-      }
+      },
+    node: document.querySelector('.root app-field')
   });
 
   button.render();

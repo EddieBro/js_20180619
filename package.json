@@ -4,7 +4,7 @@
   "description": "Учебный проект ",
   "main": "index.js",
   "scripts": {
-    "dev": "static-server ./ --port 8001",
+    "dev": "static-server ./ --port 3000",
     "build": "webpack",
     "watch": "webpack --watch"
   },

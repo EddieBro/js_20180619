@@ -1,4 +1,4 @@
-import {Component} from "../component";
+import {Component} from '../component';
 import style from './field.scss';
 
 export class Field extends Component {
